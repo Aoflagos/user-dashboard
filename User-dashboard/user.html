@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    
+   
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="user_style.css">
+ 
+    <title>User-Dash board</title>
+</head>
+<body>
+    <nav class="topnav lighten-1">
+        <div class="nav-wrapper">
+            <a href="#" data-target="slide-out" class="sidenav-trigger">
+                <i class="material-icons">menu</i>
+            </a>
+            <a href="#" id="dashboard" class="brand-logo">Dashboard</a>
+            <ul class="right hide-on-med-and-down">
+                <li >
+                    <div class="searchNow ">
+                        <i class="material-icons grey-text">search</i>
+                        <input type="search" placeholder="search" class="">
+                 
+                        
+                    </div>
+                </li>
+
+                <!--ends-->
+                <li>
+                    <a href="#">
+                        <i class="material-icons">view_module</i>
+                    </a>
+                </li><li>
+                    <a href="#">
+                        <i class="material-icons">refresh</i>
+                    </a>
+                </li><li>
+                    <a href="#">
+                        <i class="material-icons">more_vert</i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <ul id="slide-out" class="sidenav sidenav-fixed">
+        <li>
+            <div class="user-view">
+                <div class="background"></div>
+                <a href="#"><img src="img/E insurance png 1.png" alt="" class="transparent"></a>
+                
+            </div>
+        </li>
+        <li>
+            <a href="#dashboard" class="wave-effect white-text">
+                <I class="material-icons white-text transparent">dashboard</I>Dashboard
+            </a>
+        </li>
+         <li>
+            <a href="#" class="wave-effect white-text">
+                <I class="material-icons white-text transparent">favorite</I>Wishlists
+            </a>
+        </li>
+        <li>
+            <a href="#" class="wave-effect white-text">
+                <I class="material-icons white-text transparent">settings</I>Policies
+            </a>
+        </li>
+        <li>
+            <a href="#" class="wave-effect white-text">
+                <I class="material-icons white-text transparent">account_box</I>Claims
+            </a>
+        </li>
+        <li>
+            <a href="#" class="wave-effect white-text">
+                <I class="material-icons white-text transparent">credit_card</I>Payments
+            </a>
+        </li>
+        <li>
+            <a href="#" class="wave-effect white-text">
+                <I class="material-icons white-text transparent">person</I>Profile
+            </a>
+        </li>
+    </ul>
+
+    <!--main-->
+
+    <main>
+        <div class="container-main">
+            
+            <div class="row white boxing">
+                <div class="col s12 m12 l6">
+                    <div class="">
+                        <span class="card-title">Welcome John</span>
+                    </div>
+                    <div class="card-content">
+                        <p>You can find your insurance, wishlist, notifications and more here.</p>
+                    </div>
+                    <div class="btn">view Profile</div>
+                </div>
+                <img src="/img/hro 1.png" alt="loud" class="right">
+            </div>
+        
+            <!--table-->
+            <div class="row">
+            <table class="responsive striped highlight white">
+                <thead>
+                  <tr>
+                      <th>Name</th>
+                      <th>Item Name</th>
+                      <th>Item Price</th>
+                      <th>Item Price</th>
+                  </tr>
+                </thead>
+        
+                <tbody>
+                  <tr>
+                    <td>Alvin</td>
+                    <td>Eclair</td>
+                    <td>$0.87</td>
+                    <td>$7.00</td>
+                  </tr>
+                  <tr>
+                    <td>Alan</td>
+                    <td>Jellybean</td>
+                    <td>$3.76</td>
+                    <td>$7.00</td>
+                  </tr>
+                  <tr>
+                    <td>Jonathan</td>
+                    <td>Lollipop</td>
+                    <td>$7.00</td>
+                    <td>$7.00</td>
+                  </tr>
+                  <tr>
+                    <td>Jonathan</td>
+                    <td>Lollipop</td>
+                    <td>$7.00</td>
+                    <td>$7.00</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+        </div>
+    </main>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
