@@ -1,6 +1,9 @@
 *{
    
-    font-family:Lato;
+    font-family:san-serif, Lato;
+}
+body{
+    background-color: #f5f5f5;
 }
 
 /*search*/
@@ -25,7 +28,7 @@ nav, header, main, footer{
     padding-left: 320px;
 }
 .topnav{
-    background-color: #0A1558;
+   background-color: white;
 }
 
 main {
@@ -39,8 +42,11 @@ main {
 .user-view{
     background-color: #0A1558;
 }
+.sidenav li:hover{
+    background-color: #23f3b5; 
+}
 .sidenav li > a :hover{
-    background-color: #0A1558;
+    background-color: #23f3b5;
 }
 .sidenav li > a i{
     background-color: #0A1558;
@@ -83,4 +89,141 @@ main {
     main{
         padding:20px;
     }
+    .topnav{
+        background-color: #0A1558;
+    }
+    .reciept-line{
+       display: none;
+    }
+}
+
+
+
+
+
+/*wishlist*/
+.text_boxing{
+    display: inline-flex;
+    justify-content: space-between;
+}
+.around{
+    padding: 10px;
+    margin-top: 30px;
+}
+.holder{
+    width: 130px;
+    height: 130px;
+    border-radius: 7px;
+}
+
+/*policies*/
+.flexbar{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    
+}
+
+
+
+/*payment*/
+
+.credit-card{
+    width: 350px;
+    height: 200px;
+    background-color: #0A1558;
+    border-radius: 7px;
+    padding: 15px;
+    box-shadow: -15px 20px 20px rgba(22, 4, 74, 0.15);
+    margin-bottom: 30px;
+}
+.card__number {
+    display: flex;
+    justify-content: space-between;
+   
+  }
+
+
+  .number-group,
+.card__holder__name,
+.card__expiration__date {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.3rem;
+  text-shadow: 0 1.2px var(--gray2);
+  color: var(--white);
+  letter-spacing: 1px;
+  
+}
+
+.card__details {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.1rem;
+}
+
+.card__holder,
+.card__expiration {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__holder__title,
+.card__expiration__title {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--white);
+  opacity: 0.7;
+  font-size: 1.3rem;
+  
+}
+
+.card__holder__name,
+.card__expiration__date {
+  text-transform: uppercase;
+  font-size: 20px;
+  
+  margin-bottom: 1.5rem;
+}
+/*card ends*/
+.main-line{
+    display: flex;
+    justify-content: space-between;
+
+}
+.subhead{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+
+}
+
+.subhead .btn{
+    margin-top: 27px;
+}
+
+.reciept-line{
+    width: 40%;
+    padding-top: 0;
+    font-size: 13px;
+}
+.price  {
+    margin-top: -50px;
+}
+.collection-item{border-radius: 7px;}
+
+
+
+
+/*profile*/
+.personal{
+margin-top:30px;
+display:flex;
+}
+.gender{
+    width:150px;
+    height:50px;
+    border:solid green 1px;
+    margin-left: 40px;
 }
